@@ -1,18 +1,15 @@
 //
-// Created by User on 5/10/2025.
+// Created by User on 28/10/2025.
 //
 
 #ifndef UTILS_HPP
 #define UTILS_HPP
 #include <iomanip>
-#include <fstream>
-
 #include <cstring>
 #include <iostream>
+#include <fstream>
 
 using namespace std;
-#define AUMENTO 5
-#define CANTCAR 140
-#define CANTCARPLATOS 200
-
+#define INCREMENTO 5
+#define TAMLINEA 190
 #endif //UTILS_HPP

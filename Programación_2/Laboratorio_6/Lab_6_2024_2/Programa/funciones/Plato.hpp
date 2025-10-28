@@ -1,28 +1,38 @@
 //
-// Created by User on 5/10/2025.
+// Created by User on 28/10/2025.
 //
 
 #ifndef PLATO_HPP
 #define PLATO_HPP
+#include "Utils.hpp"
 
-
-#include "utils.hpp"
 
 class Plato {
+private:
+    char *codigo;
+    char *nombre;
+    double precio;
+    char *categoria;
+    int preparados;
+    double descuento;
+    int atendidos;
+    int noAtendidos;
+    double totalEsperado;
+    double totalBruto;
+    double totalNeto;
+
 public:
     Plato();
 
-    Plato(const Plato &copia);
+    virtual ~Plato();
 
-    void inicializa();
+    Plato(const Plato &orig);
 
-    ~Plato();
+    void operator=(const Plato &orig);
 
-    void operator =(const class Plato &copia);
-
-    bool posPlato(char *plato);
-
-    void agregarTotal(double cantidad, double descCliente);
+    void leer(ifstream &archivo);
+    void imprimir(ofstream &archivo);
+    bool esAtendible(int cantidad,double descClie,double &totalPagadoCliente);
 
     void get_codigo(char *codigo) const;
 
@@ -67,24 +77,8 @@ public:
     double get_total_neto() const;
 
     void set_total_neto(double total_neto);
-
-    void leerPlato(ifstream &arch);
-    void imprimir(ofstream &arch);
-private:
-    char *codigo;
-    char *nombre;
-    double precio;
-    char *categoria;
-    int preparados;
-    double descuento;
-    int atendidos;
-    int noAtendidos;
-    double totalEsperado;
-    double totalBruto;
-    double totalNeto;
 };
 
-void operator>>(ifstream &arch, class Plato &plat);
-void operator<<(ofstream &arch, class Plato plat);
-
+void operator >>(ifstream &arch, class Plato &plat);
+void operator <<(ofstream &arch,class Plato &plat);
 #endif //PLATO_HPP
