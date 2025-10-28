@@ -1,22 +1,36 @@
 //
-// Created by User on 1/10/2025.
+// Created by User on 27/10/2025.
 //
 
 #ifndef MULTA_HPP
 #define MULTA_HPP
 
-
 #include "utils.hpp"
 
 class Multa {
+private:
+    char *placa;
+    int fechaDeInfraccion;
+    int fechaDePago;
+    int codigoInfraccion;
+    double multa;
+
 public:
     Multa();
 
-    Multa(const Multa &copia);
+    Multa(const Multa &orig);
 
-    ~Multa();
+    virtual ~Multa();
 
-    void operator =(const Multa &copia);
+    void operator=(const Multa &orig);
+
+    void leer(ifstream &arch);
+
+    void imprimir(ofstream &arch);
+
+    void imprimirFecha(ofstream &arch,int fecha);
+
+    int leerFecha(ifstream &arch);
 
     void get_placa(char *placa) const;
 
@@ -37,22 +51,11 @@ public:
     double get_multa() const;
 
     void set_multa(double multa);
-
-    void leerUnaMulta(ifstream &arch);
-
-    int leerFecha(ifstream &arch);
-
-    void imprimir(ofstream &arch);
-    void transformarFecha(ofstream &arch,int fecha) ;
-private:
-    char *placa;
-    int fechaDeInfraccion;
-    int fechaDePago;
-    int codigoInfraccion;
-    double multa;
 };
 
-void operator >>(ifstream &arch, class Multa &mul);
-void operator <<(ofstream &arch,class Multa mul) ;
+void operator >>(ifstream &arch, class Multa &multa);
+
+void operator <<(ofstream &arch, class Multa &multa);
+
 
 #endif //MULTA_HPP

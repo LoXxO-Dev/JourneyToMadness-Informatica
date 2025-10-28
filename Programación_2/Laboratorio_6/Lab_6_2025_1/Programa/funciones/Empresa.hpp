@@ -1,5 +1,5 @@
 //
-// Created by User on 1/10/2025.
+// Created by User on 27/10/2025.
 //
 
 #ifndef EMPRESA_HPP
@@ -13,7 +13,11 @@ class Empresa {
 public:
     Empresa();
 
-    ~Empresa();
+    void operator=(class Empresa &orig);
+
+    virtual ~Empresa();
+
+    void leer(ifstream &arch);
 
     int get_dni() const;
 
@@ -31,30 +35,22 @@ public:
 
     void set_num_multas(int num_multas);
 
-    void leerEmpresa(ifstream &arch);
+    void operator +=(const class Multa &multa);
 
-    void setPlacaI(const char *, int i);
+    void setPlacaI(const char *placa, int i);
 
-    void getPlacaI(char *, int i);
-
-    void operator =(Empresa &copia);
-
+    void getPlacaI(char *placa, int i);
     void imprimir(ofstream &arch);
-
-    void operator +=(const class Multa infraccionCometida);
-bool placaPresenteEnEmpresa( char *placa) ;
-
 private:
     int dni;
     char *nombre;
     char *placas[10];
     int numPlacas;
-    class Multa multas[100];
+    Multa multas[100];
     int numMultas;
 };
 
-void operator >>(ifstream &arch, class Empresa &emp);
-
-void operator <<(ofstream &arch, class Empresa &emp);
+void operator >>(ifstream &arch, class Empresa &empre);
+void operator <<(ofstream &arch,class Empresa &empre);
 
 #endif //EMPRESA_HPP
