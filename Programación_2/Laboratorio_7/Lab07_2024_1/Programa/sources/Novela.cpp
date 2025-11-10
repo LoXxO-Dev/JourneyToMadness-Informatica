@@ -29,14 +29,14 @@ void Novela::operator=(const class Novela &nove) {
     char aux[100];
     nove.get_tipo(aux);
     set_tipo(aux);
-    this->peso=nove.peso;
-
+    this->peso=nove.get_peso();
+    nove.get_nombre(aux);
+    set_nombre(aux);
     set_ancho(nove.get_ancho());
     set_alto(nove.get_alto());
     nove.get_codigo(aux);
     set_codigo(aux);
-    nove.get_nombre(aux);
-    set_nombre(aux);
+
 }
 
 void Novela::leer(ifstream &arch) {
