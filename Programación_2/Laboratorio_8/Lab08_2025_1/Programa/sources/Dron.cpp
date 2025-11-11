@@ -26,10 +26,10 @@ void Dron::leer(ifstream &arch) {
 
 }
 
-bool Dron::operator>(const class Dron &dron) const {
+bool Dron::operator>(const class Dron *dron) const {
     char aux[100],aux2[100];
     get_id(aux);
-    dron.get_id(aux2);
+    dron->get_id(aux2);
     return strcmp(aux,aux2)>0;
 }
 

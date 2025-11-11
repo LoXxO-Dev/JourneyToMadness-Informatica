@@ -17,8 +17,9 @@ public:
     Dron();
     virtual ~Dron();
     virtual void leer(ifstream &arch);
-    virtual bool operator >(const  class Dron &dron)const  ;
+    virtual bool operator >(const  class Dron *dron)const  ;
     virtual  void actualiza()=0;
+    virtual bool verificar()=0;
     virtual void imprimir(ofstream &arch);
     void  get_id(char *id) const;
 

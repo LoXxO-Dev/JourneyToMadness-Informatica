@@ -4,11 +4,10 @@
 
 #include "DroneVelocidad.hpp"
 
-bool DroneVelocidad::operator>(const class Dron &dron) const {
-    return Dron::operator>(dron);
+
+DroneVelocidad::DroneVelocidad() {
 
 }
-
 
 void DroneVelocidad::imprimir(ofstream &arch) {
     Dron::imprimir(arch);
@@ -27,8 +26,12 @@ void DroneVelocidad::leer(ifstream &arch) {
     arch.get();
 }
 
-void DroneVelocidad::actualiza() {
+void DroneVelocidad::actualiza()  {
+    this->velocidad_maxima_permitida*=1;
+}
 
+bool DroneVelocidad::verificar() {
+    return false;
 }
 
 void DroneVelocidad::set_velocidad_maxima_permitida(double velocidad_maxima_permitida) {

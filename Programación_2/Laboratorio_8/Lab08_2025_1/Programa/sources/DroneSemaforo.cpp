@@ -4,10 +4,15 @@
 
 #include "DroneSemaforo.hpp"
 
-bool DroneSemaforo::operator>(const class Dron &dron) const {
-    return Dron::operator>(dron);
+DroneSemaforo::DroneSemaforo() {
 
 }
+
+bool DroneSemaforo::verificar() {
+    return luz_roja==1;
+}
+
+
 
 void DroneSemaforo::imprimir(ofstream &arch) {
     Dron::imprimir(arch);
@@ -15,9 +20,9 @@ void DroneSemaforo::imprimir(ofstream &arch) {
 
 }
 
-void DroneSemaforo::actualiza() {
-    cout<<"Entre";
-    this->luz_roja=1;
+void DroneSemaforo::actualiza()   {
+   // cout<<"Entre";
+    this->luz_roja=0;
 
 }
 

@@ -13,11 +13,12 @@ private:
     double velocidad_maxima_permitida;
 
 public:
-    bool operator >(const  class Dron &dron)const   ;
+    DroneVelocidad();
     void imprimir(ofstream &arch);
     double get_velocidad_maxima_permitida() const;
     void leer(ifstream &arch);
-    void actualiza();
+    void actualiza() override ;
+    bool verificar();
     void set_velocidad_maxima_permitida(double velocidad_maxima_permitida);
 
 };

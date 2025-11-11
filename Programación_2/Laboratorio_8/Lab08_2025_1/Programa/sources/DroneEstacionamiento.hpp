@@ -13,9 +13,10 @@ private:
     int zona_carga;
 
 public:
+    DroneEstacionamiento();
     int get_zona_carga() const;
-    bool operator >(const  class Dron &dron) const  ;
-     void actualiza() ;
+     void actualiza()  override ;
+    bool verificar();
      void imprimir(ofstream &arch);
     void leer(ifstream &arch);
     void set_zona_carga(int zona_carga);

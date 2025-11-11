@@ -14,9 +14,11 @@ private:
     int luz_roja;
 
 public:
-    bool operator >(const  class Dron &dron) const  ;
+
+    DroneSemaforo();
+    bool verificar();
      void imprimir(ofstream &arch);
-     void actualiza() ;
+     void actualiza() override ;
     int get_luz_roja() const;
     void leer(ifstream &arch);
     void set_luz_roja(int luz_roja);

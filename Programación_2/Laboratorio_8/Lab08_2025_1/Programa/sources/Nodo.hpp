@@ -9,8 +9,8 @@
 class Nodo {
 private:
     class Dron *dron;
-    Nodo *izq;
-    Nodo *der;
+   class  Nodo *izq;
+    class  Nodo *der;
 public:
     Nodo();
     friend class Arbol;

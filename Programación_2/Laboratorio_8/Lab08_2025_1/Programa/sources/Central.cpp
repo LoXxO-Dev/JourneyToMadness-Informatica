@@ -18,17 +18,9 @@ void Central::carga() {
     // Semaforo,DS473,Avenida B,10,true
     char tipo[100];
     while (true) {
-        arch.getline(tipo, 100, ',');
+        ADrones.lee(arch);
         if (arch.eof()) break;
-        Dron *aux;
-        if (strcmp(tipo, "Velocidad") == 0)
-            aux = new class DroneVelocidad;
-        else if (strcmp(tipo, "Semaforo") == 0)
-            aux = new class DroneSemaforo;
-        else if (strcmp(tipo, "Estacionamiento") == 0)
-            aux = new class DroneEstacionamiento;
-        aux->leer(arch);
-        ADrones.insertar(aux);
+
 
     }
 }
