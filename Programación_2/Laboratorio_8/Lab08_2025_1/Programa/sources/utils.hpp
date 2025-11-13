@@ -10,6 +10,6 @@
 #include <cstring>
 using namespace std;
 #define TAM_LINEA 90
-//utils
+//util
 void imprimirLinea(ofstream &arch,int cant,char car) ;
 #endif //UTILS_HPP
