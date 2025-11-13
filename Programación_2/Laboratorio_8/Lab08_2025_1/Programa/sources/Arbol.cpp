@@ -52,12 +52,15 @@ void Arbol::actualizaR(class Nodo *raiz, int &n_esta, int &n_sema) {
     raiz->dron->get_id(aux);
     aux[2] = 0;
     if (strcmp(aux, "DS") == 0) {
-        if (n_sema > 0)
-           raiz->dron->actualiza();
+        if (n_sema > 0) {
+            raiz->dron->actualiza();
+        }
+
         n_sema--;
     } else if (strcmp(aux, "DE") == 0) {
-        if (n_esta > 0)
+        if (n_esta > 0) {
             raiz->dron->actualiza();
+        }
         n_esta--;
     }else if (strcmp(aux,"DV")==0)
         this->raiz->dron->actualiza();

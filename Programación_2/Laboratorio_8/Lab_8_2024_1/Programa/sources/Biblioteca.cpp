@@ -23,7 +23,6 @@ void Biblioteca::llena() {
     apertura_archivos_entrada(arch, "data/Libros3.csv");
     char tipo;
     int pos;
-    int i = 0;
     while (true) {
         arch >> tipo;
         if (arch.eof()) break;
@@ -41,7 +40,6 @@ void Biblioteca::llena() {
         }
 
     }
-    cout<<i<<endl;
 }
 
 void Biblioteca::baja() {
