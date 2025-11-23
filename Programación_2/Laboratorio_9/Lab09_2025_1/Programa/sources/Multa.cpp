@@ -55,9 +55,11 @@ void Multa::imprimir(ofstream &arch) {
     dd=fecha%100;
     aa=fecha/10000;
     mm=fecha%10000/100;
+    string aux=codMulta;
+    aux.erase(0,1);
     arch<<left<<setw(15)<<placa<<right<<setw(10 )<<" "<<
         setfill('0')<<setw(2)<<dd<<"/"<<setw(2)<<mm<<"/"<<
-            setw(4)<<aa<<setfill(' ')<<setw(15)<<codMulta<<
+            setw(4)<<aa<<setfill(' ')<<setw(15)<<aux<<
                 setw(20)<<multa;
     if (pagada) {
         arch<<setw(15)<<"SI";
