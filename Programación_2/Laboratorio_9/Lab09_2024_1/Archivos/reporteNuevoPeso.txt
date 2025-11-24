@@ -1,0 +1,44 @@
+Si hay espacio
+Estante: 3
+Capacidad: 15        Disponibilidad  8.15
+========================================================================================================================
+Titulo:Historica
+Peso:0.5
+ISSN: 2223375   Año: 2022      Número: 4
+
+Titulo:Historica
+Peso:0.5
+ISSN: 2223375   Año: 2022      Número: 3
+
+Titulo:Historica
+Peso:0.5
+ISSN: 2223375   Año: 2022      Número: 1
+
+Titulo:Historica
+Peso:0.5
+ISSN: 2223375   Año: 2019      Número: 3
+
+Titulo:LA ENCICLOPEDIA DE LOS DINOSAURIOS
+Peso:2
+SKU: 36225     Año: 2018
+
+Titulo:La chica del tren
+Peso:0.7
+Autor: Paula Hawkins
+
+Titulo:Espania con honra
+Peso:0.7
+Autor: Daniel Aquillue
+
+Titulo:Los pilares de la tierra
+Peso:0.3
+Autor: Ken Follett
+
+Titulo:Apocalipticos e integrados
+Peso:0.4
+Autor: Umberto Eco
+
+Titulo:Boletin de Arqueologia PUCP
+Peso:0.75
+ISSN: 10292004  Año: 2023      Número: 3
+
