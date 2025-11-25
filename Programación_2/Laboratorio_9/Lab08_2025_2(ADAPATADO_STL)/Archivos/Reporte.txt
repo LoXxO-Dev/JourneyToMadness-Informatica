@@ -1,0 +1,214 @@
+========================================================================================================================
+                                         REPORTE DE METRICAS
+========================================================================================================================
+[METRICAS BASIC]
+     Código        Descripción                  Fecha Calc.    Expira         Estado              Horas          Viewers        
+     MB-3040     Calidad estable                 20251120       20251231     ACTIVA               0.15             50
+     MB-0114     Chat activo                     20250720       20251231     ACTIVA              10.92            560
+     MB-0132     Chat activo                     20251217       20251231     ACTIVA               1.43            360
+     MB-0116     Chat activo                     20250927       20251031     NO ACTIVA            3.28             63
+     MB-0101     Clips del evento                20250911       20251231     ACTIVA               1.36             19
+     MB-0141     Comunidad fiel                  20250716       20251231     ACTIVA               2.30            118
+     MB-0109     Comunidad fiel                  20250817       20251031     NO ACTIVA            7.39             64
+     MB-3044     Estabilidad alta                20251016       20251031     NO ACTIVA            0.09             75
+     MB-3005     Estabilidad alta                20250927       20251231     ACTIVA               0.13             75
+     MB-3032     FPS sólidos                    20251231       20251231     ACTIVA               0.19             48
+     MB-0131     Maratón de chat                20250605       20251231     ACTIVA               7.96            333
+     MB-3050     Picos de red                    20251219       20251231     ACTIVA               0.21             75
+     MB-3041     Picos de red                    20250929       20251031     NO ACTIVA            0.08             75
+     MB-0102     Q&A largo                       20251027       20251231     ACTIVA               1.58            180
+     MB-0007     Sesión Estrenos                20250906       20251031     NO ACTIVA            5.70            661
+     MB-0067     Sesión Estrenos                20250808       20251031     NO ACTIVA            4.90            903
+     MB-0033     Sesión Estrenos                20251129       20251231     ACTIVA               2.30            184
+     MB-0024     Sesión Estrenos                20251008       20251231     ACTIVA               5.80            731
+     MB-0066     Sesión Estrenos                20250716       20251231     ACTIVA               2.80            963
+     MB-0044     Sesión Games                   20251126       20251231     ACTIVA               6.50           1116
+     MB-0029     Sesión Games                   20251019       20251031     NO ACTIVA            3.90            986
+     MB-0014     Sesión Games                   20250727       20251231     ACTIVA               5.60            234
+     MB-0001     Sesión Games                   20250601       20251031     NO ACTIVA            5.10            621
+     MB-0035     Sesión Games                   20250704       20251231     ACTIVA               5.90           1088
+     MB-0028     Sesión Games                   20250601       20251031     NO ACTIVA            5.20            377
+     MB-0019     Sesión Games                   20251005       20251031     NO ACTIVA            1.30            344
+     MB-0018     Sesión Games                   20250918       20251231     ACTIVA               3.20            569
+     MB-0016     Sesión Games                   20250725       20251231     ACTIVA               3.20           1059
+     MB-0053     Sesión Games                   20251008       20251031     NO ACTIVA            6.10            260
+     MB-0031     Sesión Games                   20250921       20251231     ACTIVA               3.50            627
+     MB-0042     Sesión Games                   20251003       20251231     ACTIVA               5.80            240
+     MB-0055     Sesión Games                   20250603       20251231     ACTIVA               4.10            332
+     MB-0034     Sesión Games                   20250619       20251231     ACTIVA               2.50           1114
+     MB-0038     Sesión Games                   20250601       20251031     NO ACTIVA            5.70            629
+     MB-0062     Sesión Games                   20251231       20251231     ACTIVA               4.00           1000
+     MB-0011     Sesión Games                   20250626       20251231     ACTIVA               3.50            867
+     MB-0004     Sesión Games                   20251022       20251031     NO ACTIVA            4.60            979
+     MB-0041     Sesión Games                   20250604       20251231     ACTIVA               6.10            604
+     MB-0052     Sesión IRL                     20251107       20251231     ACTIVA               6.50            270
+     MB-0054     Sesión IRL                     20250812       20251031     NO ACTIVA            5.60            739
+     MB-0061     Sesión IRL                     20250629       20251031     NO ACTIVA            5.90            425
+     MB-0009     Sesión IRL                     20250815       20251231     ACTIVA               4.40            860
+     MB-0003     Sesión IRL                     20250609       20251031     NO ACTIVA            2.20           1154
+     MB-0023     Sesión IRL                     20250920       20251031     NO ACTIVA            1.00            659
+     MB-0060     Sesión IRL                     20250712       20251231     ACTIVA               4.00            995
+     MB-0025     Sesión IRL                     20250601       20251031     NO ACTIVA            3.10            450
+     MB-0064     Sesión IRL                     20250601       20251031     NO ACTIVA            1.60            952
+     MB-0002     Sesión IRL                     20250601       20251031     NO ACTIVA            5.10            298
+     MB-0015     Sesión IRL                     20250601       20251031     NO ACTIVA            2.50            552
+     MB-0048     Sesión IRL                     20250912       20251031     NO ACTIVA            5.90            624
+     MB-0057     Sesión IRL                     20250601       20251031     NO ACTIVA            2.90            660
+     MB-0012     Sesión IRL                     20250830       20251031     NO ACTIVA            2.50            266
+     MB-0046     Sesión Just Chatting           20250615       20251031     NO ACTIVA            3.60            442
+     MB-0027     Sesión Just Chatting           20250801       20251031     NO ACTIVA            5.80            281
+     MB-0010     Sesión Just Chatting           20250601       20251031     NO ACTIVA            4.60            712
+     MB-0040     Sesión Just Chatting           20250620       20251231     ACTIVA               5.70            320
+     MB-0037     Sesión Just Chatting           20250914       20251231     ACTIVA               5.00            321
+     MB-0006     Sesión Just Chatting           20250827       20251031     NO ACTIVA            2.20            809
+     MB-0051     Sesión Just Chatting           20251119       20251231     ACTIVA               3.50            268
+     MB-0032     Sesión Just Chatting           20250826       20251031     NO ACTIVA            4.00            571
+     MB-0008     Sesión Just Chatting           20251204       20251231     ACTIVA               1.70            895
+     MB-0022     Sesión Just Chatting           20251122       20251231     ACTIVA               5.10            816
+     MB-0070     Sesión Música                 20250911       20251031     NO ACTIVA            5.80            691
+     MB-0063     Sesión Música                 20250818       20251231     ACTIVA               6.10            201
+     MB-0056     Sesión Música                 20250630       20251231     ACTIVA               5.10            438
+     MB-0043     Sesión Música                 20250601       20251231     ACTIVA               2.50           1051
+     MB-0049     Sesión Música                 20250611       20251231     ACTIVA               3.30           1190
+     MB-0036     Sesión Música                 20251224       20251231     ACTIVA               1.50           1002
+     MB-0026     Sesión Música                 20250601       20251231     ACTIVA               3.70            349
+     MB-0013     Sesión Música                 20251015       20251231     ACTIVA               1.90            897
+     MB-0068     Sesión Música                 20250929       20251031     NO ACTIVA            5.50           1062
+     MB-0021     Sesión Retro                   20250928       20251231     ACTIVA               6.30            143
+     MB-0047     Sesión Retro                   20250621       20251231     ACTIVA               1.40            259
+     MB-0005     Sesión Retro                   20251029       20251031     NO ACTIVA            5.80            446
+     MB-0017     Sesión Retro                   20250706       20251031     NO ACTIVA            4.10            658
+     MB-0059     Sesión Retro                   20250601       20251031     NO ACTIVA            1.00            387
+     MB-0045     Sesión Retro                   20250815       20251031     NO ACTIVA            1.30            244
+     MB-0069     Sesión Retro                   20251228       20251231     ACTIVA               2.30            168
+     MB-0058     Sesión Retro                   20250804       20251231     ACTIVA               5.70            309
+     MB-0050     Sesión Variety                 20250723       20251231     ACTIVA               2.70            663
+     MB-0039     Sesión Variety                 20251016       20251231     ACTIVA               3.30            690
+     MB-0030     Sesión Variety                 20251211       20251231     ACTIVA               2.10            758
+     MB-0065     Sesión Variety                 20250731       20251231     ACTIVA               6.40            482
+     MB-0020     Sesión Variety                 20251220       20251231     ACTIVA               4.30            908
+------------------------------------------------------------------------------------------------------------------------
+[METRICAS ENGAGE]
+     Código        Descripción                  Fecha Calc.    Expira         Estado              Msgs           Chatters       Clips          
+     ME-0136     Chat activo                     20250819       20251231     ACTIVA               3374            892             96
+     ME-0154     Chat activo                     20250810       20251031     NO ACTIVA             746            678             94
+     ME-0140     Chat activo                     20250628       20251231     ACTIVA               3267           1021             95
+     ME-0126     Chat activo                     20251003       20251031     NO ACTIVA            3053            908             97
+     ME-0146     Chat activo                     20250719       20251031     NO ACTIVA            3629           1080             76
+     ME-0152     Chat activo                     20251203       20251231     ACTIVA               2618            285            111
+     ME-0111     Chat activo                     20251010       20251231     ACTIVA               3045            271            109
+     ME-0112     Chat activo                     20250728       20251231     ACTIVA               1507            130             10
+     ME-0142     Chat activo                     20250920       20251231     ACTIVA               2498            740            114
+     ME-0115     Chat activo                     20251115       20251231     ACTIVA               1173            950             33
+     ME-0160     Chat activo                     20250918       20251031     NO ACTIVA             793            283            102
+     ME-0163     Chat activo                     20250813       20251231     ACTIVA               4019            225             92
+     ME-0144     Chat activo                     20250826       20251031     NO ACTIVA            2962            452             67
+     ME-0159     Clips del evento                20250728       20251231     ACTIVA               3416           1002             61
+     ME-0125     Clips del evento                20251231       20251231     ACTIVA               2106           1079             33
+     ME-0168     Clips del evento                20250621       20251231     ACTIVA               3839            740             82
+     ME-0106     Clips del evento                20250601       20251031     NO ACTIVA            1320            695             69
+     ME-0147     Clips del evento                20251113       20251231     ACTIVA               3971            115             16
+     ME-0120     Clips del evento                20250810       20251231     ACTIVA               2640            560             39
+     ME-0124     Clips del evento                20251213       20251231     ACTIVA               4207             92             50
+     ME-0137     Clips del evento                20251030       20251231     ACTIVA               2289            288             94
+     ME-0166     Comunidad fiel                  20250601       20251031     NO ACTIVA            2664            979             20
+     ME-0107     Comunidad fiel                  20250823       20251231     ACTIVA               2722            340             29
+     ME-0149     Comunidad fiel                  20250828       20251231     ACTIVA               3009            800             94
+     ME-0151     Comunidad fiel                  20251213       20251231     ACTIVA               1869            523             99
+     ME-0139     Comunidad fiel                  20250618       20251231     ACTIVA               3095            105            113
+     ME-0155     Comunidad fiel                  20250627       20251231     ACTIVA               2629           1041             66
+     ME-0138     Comunidad fiel                  20250601       20251031     NO ACTIVA             636            791             73
+     ME-0118     Comunidad fiel                  20250918       20251231     ACTIVA               3952            405            100
+     ME-0167     Comunidad fiel                  20251127       20251231     ACTIVA               2530           1104             74
+     ME-0129     Comunidad fiel                  20250906       20251031     NO ACTIVA            4024            749             48
+     ME-0169     Interacción alta               20250624       20251031     NO ACTIVA             469            631             78
+     ME-0162     Interacción alta               20250711       20251031     NO ACTIVA            3990           1042             42
+     ME-0145     Interacción alta               20250601       20251031     NO ACTIVA            2590            645             76
+     ME-0156     Interacción alta               20250718       20251231     ACTIVA               2368           1058             19
+     ME-0130     Interacción alta               20251210       20251231     ACTIVA               3753            596            111
+     ME-0128     Interacción alta               20250622       20251231     ACTIVA               1411           1025             28
+     ME-0110     Interacción alta               20250601       20251031     NO ACTIVA            4176            427             89
+     ME-0133     Interacción alta               20250601       20251031     NO ACTIVA            1334           1049             90
+     ME-0150     Interacción alta               20250818       20251031     NO ACTIVA            1288            474             45
+     ME-0105     Interacción alta               20250601       20251231     ACTIVA               1914            825             60
+     ME-0165     Interacción alta               20250601       20251031     NO ACTIVA            2476            371             14
+     ME-0121     Maratón de chat                20251017       20251031     NO ACTIVA            1535            553             54
+     ME-0117     Maratón de chat                20251118       20251231     ACTIVA               2899            986             83
+     ME-0119     Maratón de chat                20250806       20251231     ACTIVA               2571           1147             67
+     ME-0104     Maratón de chat                20250907       20251231     ACTIVA               1857            601             10
+     ME-0113     Maratón de chat                20251104       20251231     ACTIVA                896           1012             58
+     ME-0161     Q&A largo                       20250807       20251231     ACTIVA               1586            571             27
+     ME-0153     Q&A largo                       20250729       20251231     ACTIVA               2776            108             95
+     ME-0170     Q&A largo                       20250929       20251231     ACTIVA               3922            649             28
+     ME-0143     Q&A largo                       20250811       20251231     ACTIVA               2297           1031             77
+     ME-0127     Q&A largo                       20250703       20251231     ACTIVA                520            886             80
+     ME-0164     Q&A largo                       20251219       20251231     ACTIVA               1920            950             19
+     ME-0157     Q&A largo                       20251004       20251031     NO ACTIVA             739            390             24
+     ME-0148     Q&A largo                       20250912       20251231     ACTIVA               2808            835             65
+     ME-0158     Q&A largo                       20250622       20251231     ACTIVA               1270            932             82
+     ME-0122     Q&A largo                       20250601       20251031     NO ACTIVA            3698            914             47
+     ME-0123     Q&A largo                       20250915       20251031     NO ACTIVA            3741            877            120
+     ME-0103     Q&A largo                       20250828       20251231     ACTIVA               2869            973             82
+     ME-0108     Q&A largo                       20251121       20251231     ACTIVA               1725            696             56
+     ME-0134     Q&A largo                       20250726       20251231     ACTIVA               2399            835             26
+     ME-0135     Q&A largo                       20251209       20251231     ACTIVA               1641            717             18
+------------------------------------------------------------------------------------------------------------------------
+[METRICAS QUALITY]
+     Código        Descripción                  Fecha Calc.    Expira         Estado              Bitrate        Drop%          FPS            
+     MQ-3056     Audio impecable                 20250924       20251231     ACTIVA               7538           0.01             75
+     MQ-3002     Audio impecable                 20250601       20251031     NO ACTIVA            3817           0.08             60
+     MQ-3017     Audio impecable                 20251005       20251231     ACTIVA               3534           0.13             75
+     MQ-3012     Audio impecable                 20251215       20251231     ACTIVA               5899           0.09             75
+     MQ-3001     Audio impecable                 20251110       20251231     ACTIVA               3247           0.12             60
+     MQ-3003     Audio impecable                 20251226       20251231     ACTIVA               2800           0.11             50
+     MQ-3023     Audio impecable                 20250601       20251031     NO ACTIVA            2737           0.01             30
+     MQ-3058     Audio impecable                 20251004       20251231     ACTIVA               6133           0.02             30
+     MQ-3052     Audio impecable                 20250810       20251231     ACTIVA               3685           0.25             75
+     MQ-3033     Bitrate consistente             20250727       20251231     ACTIVA               7586           0.06             48
+     MQ-3024     Bitrate consistente             20250904       20251231     ACTIVA               4500           0.13             75
+     MQ-3004     Bitrate consistente             20250630       20251231     ACTIVA               5811           0.22             30
+     MQ-3020     Bitrate consistente             20250824       20251231     ACTIVA               6871           0.10             50
+     MQ-3028     Bitrate consistente             20250922       20251231     ACTIVA               7313           0.07             60
+     MQ-3007     Bitrate consistente             20250702       20251031     NO ACTIVA            7661           0.15             48
+     MQ-3019     Bitrate consistente             20250620       20251231     ACTIVA               4671           0.09             60
+     MQ-3025     Bitrate consistente             20250714       20251031     NO ACTIVA            7492           0.22             75
+     MQ-3008     Calidad estable                 20250819       20251231     ACTIVA               7024           0.10             48
+     MQ-3042     Calidad estable                 20251110       20251231     ACTIVA               8243           0.08             60
+     MQ-3011     Calidad estable                 20250719       20251231     ACTIVA               6663           0.19             48
+     MQ-3037     Calidad estable                 20251229       20251231     ACTIVA               4917           0.19             50
+     MQ-3047     Calidad estable                 20250626       20251231     ACTIVA               5509           0.14             50
+     MQ-3029     Calidad estable                 20250925       20251231     ACTIVA               4131           0.25             60
+     MQ-3043     Calidad estable                 20250612       20251231     ACTIVA               4993           0.25             30
+     MQ-3048     Calidad estable                 20250810       20251031     NO ACTIVA            3500           0.24             60
+     MQ-3030     Calidad estable                 20250906       20251231     ACTIVA               7208           0.07             50
+     MQ-3016     Estabilidad alta                20250612       20251031     NO ACTIVA            6374           0.18             60
+     MQ-3039     Estabilidad alta                20250624       20251231     ACTIVA               2614           0.07             30
+     MQ-3018     Estabilidad alta                20250921       20251031     NO ACTIVA            6243           0.00             48
+     MQ-3006     Estabilidad alta                20250601       20251031     NO ACTIVA            4687           0.14             50
+     MQ-3014     Estabilidad alta                20251016       20251231     ACTIVA               5223           0.14             75
+     MQ-3026     Estabilidad alta                20251006       20251231     ACTIVA               3672           0.06             50
+     MQ-3057     Estabilidad alta                20251112       20251231     ACTIVA               2998           0.25             60
+     MQ-3022     Estabilidad alta                20250920       20251231     ACTIVA               8728           0.16             30
+     MQ-3059     FPS sólidos                    20250708       20251031     NO ACTIVA            4752           0.16             75
+     MQ-3038     FPS sólidos                    20250620       20251031     NO ACTIVA            4348           0.21             60
+     MQ-3031     FPS sólidos                    20250810       20251031     NO ACTIVA            8118           0.20             30
+     MQ-3051     FPS sólidos                    20250726       20251231     ACTIVA               4408           0.08             48
+     MQ-3060     FPS sólidos                    20250906       20251231     ACTIVA               6846           0.07             75
+     MQ-3054     FPS sólidos                    20250822       20251031     NO ACTIVA            4673           0.01             60
+     MQ-3045     FPS sólidos                    20251208       20251231     ACTIVA               5898           0.16             60
+     MQ-3009     FPS sólidos                    20250701       20251231     ACTIVA               3761           0.12             50
+     MQ-3055     FPS sólidos                    20250601       20251031     NO ACTIVA            6172           0.20             75
+     MQ-3034     FPS sólidos                    20251108       20251231     ACTIVA               5030           0.20             30
+     MQ-3010     Picos de red                    20250915       20251231     ACTIVA               6368           0.06             75
+     MQ-3049     Picos de red                    20251112       20251231     ACTIVA               2674           0.01             50
+     MQ-3015     Picos de red                    20250822       20251231     ACTIVA               8213           0.06             60
+     MQ-3036     Picos de red                    20250704       20251231     ACTIVA               5497           0.13             50
+     MQ-3027     Picos de red                    20250601       20251031     NO ACTIVA            6311           0.23             75
+     MQ-3035     Picos de red                    20250601       20251031     NO ACTIVA            4917           0.08             60
+     MQ-3013     Picos de red                    20250812       20251231     ACTIVA               7308           0.14             60
+     MQ-3046     Picos de red                    20250811       20251031     NO ACTIVA            5535           0.05             60
+     MQ-3053     Picos de red                    20250629       20251231     ACTIVA               2711           0.03             50
+     MQ-3021     Picos de red                    20251017       20251031     NO ACTIVA            3060           0.06             50
+------------------------------------------------------------------------------------------------------------------------
+[TOTAL] METRICAS ACTIVAS: 128 |MÉTRICAS EXPIRADAS: 72 |FECHA DE REPORTE: 2025-11-25
+========================================================================================================================
