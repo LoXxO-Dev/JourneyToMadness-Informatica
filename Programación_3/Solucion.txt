@@ -1,0 +1,21 @@
+
+  sem_init(padre, 1, 1); 
+    sem_init(hijo, 1, 0);
+//padre
+sem_wait(padre);
+ printf("1\n");
+sem_post(hijo);
+
+sem_wait(padre);
+printf("3\n");
+ sem_post(hijo);
+ 
+ //hijo
+ 
+ sem_wait(hijo);
+ printf("2\n");
+ sem_post(padre);
+
+sem_wait(hijo);
+printf("4\n");
+sem_post(padre);
